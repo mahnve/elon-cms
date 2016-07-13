@@ -23,7 +23,9 @@
         <![endif]-->
         <div class="ui menu ">
             <a class="header item">Elon CMS</a>
-            <a class="item">Sites</a>
+            <a class="item" href="index.html">Nodes</a>
+            <a class="item">Releases</a>
+            <a class="item">Media</a>
         </div>
         </div>
         <div class="ui grid container">
@@ -31,25 +33,106 @@
                 <div class="column">
                     <a href="new_node.html">
                         <button class="ui primary button">
-                            New Site
+                            New Node
                         </button>
                     </a>
                 </div>
             </div>
             <div class="row">
                 <div class="column">
+                    <h2>Published Nodes</h2>
                     <table class="ui column celled table">
                         <thead>
                             <tr>
-                                <th>Name</th>
+                                <th>Title</th>
+                                <th>Published Version</th>
+                                <th>Excerpt</th>
+                                <th>Release</th>
+                                <th>Unpublish</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <form action="">
+                                <tr>
+                                    <td><a href="nodes.html">Fusce sagittis</a></td>
+                                    <td>2016-04-16</td>
+                                    <td><a href="nodes.html">Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  </a></td>
+                                    <td>September push</td>
+                                    <td><a href="#"><i class="trash icon"></i></a></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>Donec hendrerit tempor tellus.</td>
+                                    <td>2016-05-23</td>
+                                    <td><a href="nodes.html">Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  </a></td>
+                                    <td></td>
+                                    <td><a href="#"><i class="trash icon disabled"></i></a></td>
+                                </tr>
+                            </form>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Unpublished Nodes</h2>
+                    <table class="ui column celled table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Excerpt</th>
+                                <th>Last Edit</th>
+                                <th>Release</th>
+                                <th>Publish</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <form action="">
+                                <tr>
+                                    <td><a href="nodes.html">Fusce sagittis</a></td>
+                                    <td><a href="nodes.html">Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  </a></td>
+                                    <td>2016-04-16</td>
+                                    <td>September push</td>
+                                    <td><a href="#">Publish</a></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>Donec hendrerit tempor tellus.</td>
+                                    <td><a href="nodes.html">Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  </a></td>
+                                    <td>2016-05-23</td>
+                                    <td></td>
+                                    <td><a href="#">Publish</a></td>
+                                </tr>
+                            </form>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <h2>Archived Nodes</h2>
+                    <table class="ui column celled table">
+                        <thead>
+                            <tr>
+                                <th>Title</th>
+                                <th>Archived At</th>
+                                <th>Excerpt</th>
                                 <th>Delete</th>
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><a href="site.html">A title</a></td>
-                                <td><a href="#"><i class="trash icon"></i></a></td>
-                            </tr>
+                            <form action="">
+                                <tr>
+                                    <td><a href="nodes.html">Fusce sagittis</a></td>
+                                    <td>2016-04-16</td>
+                                    <td><a href="nodes.html">Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  </a></td>
+                                    <td><a href="#"><i class="trash icon"></i></a></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>Donec hendrerit tempor tellus.</td>
+                                    <td>2016-05-23</td>
+                                    <td><a href="nodes.html">Vestibulum convallis, lorem a tempus semper, dui dui euismod elit, vitae placerat urna tortor vitae lacus.  </a></td>
+                                    <td><a href="#"><i class="trash icon disabled"></i></a></td>
+                                </tr>
+                            </form>
                         </tbody>
                     </table>
                 </div>

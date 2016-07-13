@@ -12,9 +12,11 @@
         <link rel="stylesheet" href="css/semantic.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/semantic.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+        <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
         <!--[if lt IE 9]>
-        <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
         <![endif]-->
     </head>
     <body>
@@ -30,9 +32,7 @@
             <div class="row">
                 <div class="column">
                     <div class="ui breadcrumb">
-                        <a class="section" href="index.html">Sites</a>
-                        <div class="divider">/</div>
-                        <a class="section" href="site.html">Site</a>
+                        <a class="section" href="index.html">Nodes</a>
                         <div class="divider">/</div>
                         <a class="section" href="nodes.html">Hejsan</a>
                         <div class="divider">/</div>
@@ -60,10 +60,15 @@
                             <textarea></textarea>
                         </div>
                         <button class="ui button primary">Save New Version</button>
+                        <button class="ui button primary">Save And Publish New Version</button>
                         <button class="ui button">Back</button>
                     </form>
                 </div>
             </div>
             <script src="js/main.js"></script>
+            <script>
+             var simplemde = new SimpleMDE();
+            </script>
+
     </body>
 </html>
