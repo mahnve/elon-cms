@@ -20,6 +20,7 @@
                  [joplin "0.3.6"]
                  [ragtime "0.6.1"]
                  [com.soundcloud/prometheus-clj "2.4.0"]]
+  :source-paths ["src/clj"]
   :main ^:skip-aot elon-clj.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
